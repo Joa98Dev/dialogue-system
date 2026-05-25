@@ -152,9 +152,9 @@ make run
 
     3. Call from code:
 
-    ```
+```
     StartDialogueFromFile("assets/dialogues/chapter1.json");
-    ```
+```
 
 ### Adding Images
 
@@ -227,4 +227,5 @@ textSpeed = 30.0f;  // Characters per second (higher = faster)
 ## Credits
 
     * Built with [Raylib](https://www.raylib.com/)
+    
     * JSON parsing by [nlohmann/json](https://github.com/nlohmann/json)
