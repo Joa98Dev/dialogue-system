@@ -152,15 +152,14 @@ make run
 
     3. Call from code:
 
-<<<<<<< HEAD
+
     ```
     StartDialogueFromFile("assets/dialogues/chapter1.json");
     ```
-=======
+
 ```
     StartDialogueFromFile("assets/dialogues/chapter1.json");
 ```
->>>>>>> develop
 
 ### Adding Images
 
