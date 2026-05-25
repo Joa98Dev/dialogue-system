@@ -1,0 +1,41 @@
+# Build outputs
+MyGame
+*.exe
+*.out
+*.app
+build/
+bin/
+obj/
+*.o
+*.obj
+*.bin
+
+# Raylib specific
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.class
+*.pyc
+
+# Backup files
+*.bak
+*.backup
+
+# Debug files
+*.log
+*.tmp
+
+# Makefile generated files
+*.d
+*.d.*
