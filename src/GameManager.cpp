@@ -312,12 +312,11 @@ void GameManager::DrawCredits() {
     const char* creditsText[] = {
         "=== GAME CREDITS ===",
         "",
-        "Developed by: Your Name",
+        "Developed by: Joa98",
         "Powered by: Raylib 5.5",
         "",
         "Special Thanks to:",
         "- The Raylib community",
-        "- Open source contributors",
         "",
         "Press SPACE or ESC to return"
     };
