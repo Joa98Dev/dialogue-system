@@ -324,7 +324,7 @@ void GameManager::DrawCredits() {
     int lineHeight = 35;
     int startY = 120;
     
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 9; i++) {
         DrawText(creditsText[i], 
                  screenWidth/2 - MeasureText(creditsText[i], 20)/2, 
                  startY + (i * lineHeight), 
