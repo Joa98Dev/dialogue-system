@@ -226,6 +226,6 @@ textSpeed = 30.0f;  // Characters per second (higher = faster)
 
 ## Credits
 
-    * Built with [Raylib](https://www.raylib.com/)
+Built with [Raylib](https://www.raylib.com/)
     
-    * JSON parsing by [nlohmann/json](https://github.com/nlohmann/json)
+JSON parsing by [nlohmann/json](https://github.com/nlohmann/json)
