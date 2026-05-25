@@ -1,0 +1,96 @@
+{
+  "scene_name": "Testing the Dialogue System",
+  "lines": [
+    {
+      "text": "Alright, J, let's take a look at this. The developer finally swapped out those old C-style printf statements for proper std::cout streams.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "And the file handling is running cleanly through standard streams. The memory management is looking sharp.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "Finally! Though I was a bit worried when they stripped out my full logo and left me with just these raw curly brackets {} as a hairclip.",
+      "character_name": "J",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait2.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "But hey, as long as the dialogue data parses neatly into this JSON structure, I can't complain.",
+      "character_name": "J",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait2.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "The curly brackets look clean. More importantly, look at how the Raylib window is rendering our text right now.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "The state machine is incrementing the dialogue index perfectly every time the action key is pressed.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "True, but watch the margins! If the text strings get too long, the text-wrapping logic needs to handle the line breaks dynamically.",
+      "character_name": "J",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait2.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "We can't have our sentences clipping out of the UI container or cut awkwardly in half.",
+      "character_name": "J",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait2.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "Don't worry, the modular design means the text wrapping is separated from the rendering loop.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "It calculates the character limits before drawing the font textures. It's built to be robust.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "Good. Because if my nested strings or arrays cause a buffer overflow in your modular backend, I am never letting you live it down.",
+      "character_name": "J",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait2.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "Relax. It's a modern standard setup now. No leaks, no crashes—just clean, modular code.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    },
+    {
+      "text": "Let's advance to the next line and see if the portrait textures swap correctly.",
+      "character_name": "C",
+      "background": "assets/sprites/backgrounds/room.jpg",
+      "portrait": "assets/sprites/characters/portrait.png",
+      "auto_advance": 0
+    }
+  ]
+}
